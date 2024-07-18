@@ -16,8 +16,11 @@ body {
 .s {
 	border: 1px solid;
 	box-sizing: border-box;
-	height: 350px;
-	text-align: center;
+	min-height: 350px;
+	overflow-x: string;
+	
+	
+	
 
 }
 .c1, .c2, .c3{
@@ -29,10 +32,12 @@ body {
 	padding-top: 4px; 
 	padding-bottom:4px;
 	font-family: 'ABeeZee';
+	text-align: center;
 }
 .c {
 		padding: 20px;
 		text-align: left;
+		font-size: 15px;
 }
 /*section 1 */
 .s1 {
